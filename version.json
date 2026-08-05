@@ -1,5 +1,5 @@
 {
-  "version": "3.22.0",
-  "url": "https://github.com/HayeDerEchte/WuTurtleAI-Downloads/releases/download/v3.22.0/WuTurtleAI.Setup.3.22.0.exe",
-  "notes": "v3.22.0: WuTurtleAI is no longer open source - the source code moved to a private repository. Downloads are now published on the dedicated public downloads repository (installer + portable for Windows 11 and Windows 10)."
+  "version": "3.23.0",
+  "url": "https://github.com/HayeDerEchte/WuTurtleAI-Downloads/releases/download/v3.23.0/WuTurtleAI.Setup.3.23.0.exe",
+  "notes": "v3.23.0: New Security settings - ask before every tool call, ask before destructive tools/commands, block web access, restrict file tools to the working folder, and a tool allowlist to disable any tool."
 }
