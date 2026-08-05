@@ -1,5 +1,5 @@
 {
-  "version": "3.23.0",
-  "url": "https://github.com/HayeDerEchte/WuTurtleAI-Downloads/releases/download/v3.23.0/WuTurtleAI.Setup.3.23.0.exe",
-  "notes": "v3.23.0: New Security settings - ask before every tool call, ask before destructive tools/commands, block web access, restrict file tools to the working folder, and a tool allowlist to disable any tool."
+  "version": "3.24.0",
+  "url": "https://github.com/HayeDerEchte/WuTurtleAI-Downloads/releases/download/v3.24.0/WuTurtleAI.Setup.3.24.0.exe",
+  "notes": "v3.24.0: Rewritten tool instructions - sharper descriptions, 'use this when' guidance, efficiency rules (batch independent calls, targeted parameters, no redundant calls). Also fixes the Security tab tool allowlist crash."
 }
