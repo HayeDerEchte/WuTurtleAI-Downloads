@@ -1,5 +1,5 @@
 {
-  "version": "3.24.0",
-  "url": "https://github.com/HayeDerEchte/WuTurtleAI-Downloads/releases/download/v3.24.0/WuTurtleAI.Setup.3.24.0.exe",
-  "notes": "v3.24.0: Rewritten tool instructions - sharper descriptions, 'use this when' guidance, efficiency rules (batch independent calls, targeted parameters, no redundant calls). Also fixes the Security tab tool allowlist crash."
+  "version": "3.25.0",
+  "url": "https://github.com/HayeDerEchte/WuTurtleAI-Downloads/releases/download/v3.25.0/WuTurtleAI.Setup.3.25.0.exe",
+  "notes": "v3.25.0: Web search results now render as clickable cards in the chat - domain badge, title, snippet and an Open button that launches the page in your browser."
 }
