@@ -1,5 +1,5 @@
 {
-  "version": "3.25.0",
-  "url": "https://github.com/HayeDerEchte/WuTurtleAI-Downloads/releases/download/v3.25.0/WuTurtleAI.Setup.3.25.0.exe",
-  "notes": "v3.25.0: Web search results now render as clickable cards in the chat - domain badge, title, snippet and an Open button that launches the page in your browser."
+  "version": "3.26.0",
+  "url": "https://github.com/HayeDerEchte/WuTurtleAI-Downloads/releases/download/v3.26.0/WuTurtleAI.Setup.3.26.0.exe",
+  "notes": "v3.26.0: The AI can now call REST APIs (http_request), query SQLite/MySQL/PostgreSQL databases (db_query, with connections in Settings > Databases), and run git operations - plus search_files context lines, UI automation retries, and routines with {{placeholders}}."
 }
