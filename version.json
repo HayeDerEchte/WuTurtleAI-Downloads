@@ -1,5 +1,5 @@
 {
-  "version": "3.26.0",
-  "url": "https://github.com/HayeDerEchte/WuTurtleAI-Downloads/releases/download/v3.26.0/WuTurtleAI.Setup.3.26.0.exe",
-  "notes": "v3.26.0: The AI can now call REST APIs (http_request), query SQLite/MySQL/PostgreSQL databases (db_query, with connections in Settings > Databases), and run git operations - plus search_files context lines, UI automation retries, and routines with {{placeholders}}."
+  "version": "3.27.0",
+  "url": "https://github.com/HayeDerEchte/WuTurtleAI-Downloads/releases/download/v3.27.0/WuTurtleAI.Setup.3.27.0.exe",
+  "notes": "v3.27.0: Network recon tools for authorized testing - port scanning with banner grabbing, subnet host sweeps (CIDR or ranges), and DNS lookups (A/AAAA/CNAME/MX/TXT/NS/PTR). All covered by the Security settings."
 }
