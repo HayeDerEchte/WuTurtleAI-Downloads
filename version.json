@@ -1,5 +1,5 @@
 {
-  "version": "3.27.0",
-  "url": "https://github.com/HayeDerEchte/WuTurtleAI-Downloads/releases/download/v3.27.0/WuTurtleAI.Setup.3.27.0.exe",
-  "notes": "v3.27.0: Network recon tools for authorized testing - port scanning with banner grabbing, subnet host sweeps (CIDR or ranges), and DNS lookups (A/AAAA/CNAME/MX/TXT/NS/PTR). All covered by the Security settings."
+  "version": "3.27.1",
+  "url": "https://github.com/HayeDerEchte/WuTurtleAI-Downloads/releases/download/v3.27.1/WuTurtleAI.Setup.3.27.1.exe",
+  "notes": "v3.27.1: Loop detection - the AI no longer repeats identical tool calls endlessly. The 3rd identical call gets a warning, the 4th is blocked, the 5th stops the task with a highlighted note."
 }
