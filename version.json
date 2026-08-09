@@ -1,5 +1,5 @@
 {
-  "version": "3.27.2",
-  "url": "https://github.com/HayeDerEchte/WuTurtleAI-Downloads/releases/download/v3.27.2/WuTurtleAI.Setup.3.27.2.exe",
-  "notes": "v3.27.2: New Thinking Mode setting (Settings > General) - Auto, Always On, or Always Off. Off disables reasoning for faster replies (Ollama think:false, NVIDIA thinking:false) and hides the THINKING panel."
+  "version": "3.27.3",
+  "url": "https://github.com/HayeDerEchte/WuTurtleAI-Downloads/releases/download/v3.27.3/WuTurtleAI.Setup.3.27.3.exe",
+  "notes": "v3.27.3: New Reasoning Level setting (Settings > General) - Auto/Low/Medium/High/Max controls thinking effort and length: DeepSeek-style reasoning_effort, Nemotron thinking budgets (2k-32k tokens), Ollama reasoning_effort where supported."
 }
