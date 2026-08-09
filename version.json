@@ -1,5 +1,5 @@
 {
-  "version": "3.29.0",
-  "url": "https://github.com/HayeDerEchte/WuTurtleAI-Downloads/releases/download/v3.29.0/WuTurtleAI.Setup.3.29.0.exe",
-  "notes": "v3.29.0: 6 new network recon tools (http_probe, tls_scan, whois, subdomain_enum, ping, traceroute) with security-header analysis and cert health verdicts, port_scan service names + latency, VPN tools (status/connect/disconnect/create/delete via the Windows built-in client). v3.28.0: auto-linkified URLs, websearch card polish, styled tool JSON panels."
+  "version": "3.30.0",
+  "url": "https://github.com/HayeDerEchte/WuTurtleAI-Downloads/releases/download/v3.30.0/WuTurtleAI.Setup.3.30.0.exe",
+  "notes": "v3.30.0: activation/licensing system - requires an activation code from first launch (no free trial), activation modal at startup, Settings > Licensing tab, license_info/license_activate agent tools, HMAC-signed 16-char codes (generate with tools/gen-activation.js), http_probe large-page hang fix, whois RDAP fallback, RAS error codes for VPN."
 }
