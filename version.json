@@ -1,5 +1,5 @@
 {
-  "version": "3.27.1",
-  "url": "https://github.com/HayeDerEchte/WuTurtleAI-Downloads/releases/download/v3.27.1/WuTurtleAI.Setup.3.27.1.exe",
-  "notes": "v3.27.1: Loop detection - the AI no longer repeats identical tool calls endlessly. The 3rd identical call gets a warning, the 4th is blocked, the 5th stops the task with a highlighted note."
+  "version": "3.27.2",
+  "url": "https://github.com/HayeDerEchte/WuTurtleAI-Downloads/releases/download/v3.27.2/WuTurtleAI.Setup.3.27.2.exe",
+  "notes": "v3.27.2: New Thinking Mode setting (Settings > General) - Auto, Always On, or Always Off. Off disables reasoning for faster replies (Ollama think:false, NVIDIA thinking:false) and hides the THINKING panel."
 }
