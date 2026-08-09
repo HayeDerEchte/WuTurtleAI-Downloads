@@ -1,5 +1,5 @@
 {
-  "version": "3.27.3",
-  "url": "https://github.com/HayeDerEchte/WuTurtleAI-Downloads/releases/download/v3.27.3/WuTurtleAI.Setup.3.27.3.exe",
-  "notes": "v3.27.3: New Reasoning Level setting (Settings > General) - Auto/Low/Medium/High/Max controls thinking effort and length: DeepSeek-style reasoning_effort, Nemotron thinking budgets (2k-32k tokens), Ollama reasoning_effort where supported."
+  "version": "3.29.0",
+  "url": "https://github.com/HayeDerEchte/WuTurtleAI-Downloads/releases/download/v3.29.0/WuTurtleAI%20Setup%203.29.0.exe",
+  "notes": "v3.29.0: 6 new network recon tools (http_probe, tls_scan, whois, subdomain_enum, ping, traceroute) with security-header analysis and cert health verdicts, port_scan service names + latency, VPN tools (status/connect/disconnect/create/delete via the Windows built-in client). v3.28.0: auto-linkified URLs, websearch card polish, styled tool JSON panels."
 }
