@@ -1,5 +1,5 @@
 {
-  "version": "3.30.0",
-  "url": "https://github.com/HayeDerEchte/WuTurtleAI-Downloads/releases/download/v3.30.0/WuTurtleAI.Setup.3.30.0.exe",
-  "notes": "v3.30.0: activation/licensing system - requires an activation code from first launch (no free trial), activation modal at startup, Settings > Licensing tab, license_info/license_activate agent tools, HMAC-signed 16-char codes (generate with tools/gen-activation.js), http_probe large-page hang fix, whois RDAP fallback, RAS error codes for VPN."
+  "version": "3.30.1",
+  "url": "https://github.com/HayeDerEchte/WuTurtleAI-Downloads/releases/download/v3.30.1/WuTurtleAI.Setup.3.30.1.exe",
+  "notes": "v3.30.1: VPN fix - vpn_connect now supports L2TP IPsec preshared keys (psk), verified working with free public VPN Gate servers (username/password/psk all vpn)."
 }
