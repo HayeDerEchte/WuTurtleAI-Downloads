@@ -1,5 +1,5 @@
 {
-  "version": "3.30.1",
-  "url": "https://github.com/HayeDerEchte/WuTurtleAI-Downloads/releases/download/v3.30.1/WuTurtleAI.Setup.3.30.1.exe",
-  "notes": "v3.30.1: VPN fix - vpn_connect now supports L2TP IPsec preshared keys (psk), verified working with free public VPN Gate servers (username/password/psk all vpn)."
+  "version": "3.30.3",
+  "url": "https://github.com/HayeDerEchte/WuTurtleAI-Downloads/releases/download/v3.30.3/WuTurtleAI.Setup.3.30.3.exe",
+  "notes": "v3.30.3: activation dialog no longer pops on every Settings open (only at startup/blocked send), agent no longer hangs on empty model replies, default model replaced (deepseek-v4-flash was discontinued -> v4-flash-0731, old configs auto-remapped)."
 }
