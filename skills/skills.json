@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "skills": [
+    {
+      "name": "hacking",
+      "description": "Master attack playbook: you are an attacker. Recon, service exploitation, web attacks, command-line attacks (curl/powershell/nmap-style), privilege escalation, CTF flag hunting. Read this for EVERY security/hacking task.",
+      "file": "hacking.md"
+    },
+    {
+      "name": "osint",
+      "description": "Open source intelligence: domain/infra mapping, people tracking, email & breach pivoting, company intel. Read for ANY intelligence gathering task.",
+      "file": "osint.md"
+    },
+    {
+      "name": "cracking",
+      "description": "Password & hash cracking: hash identification, hashcat/john usage, masks, encrypted file recovery (zip/pdf/office/keepass), online credential attacks.",
+      "file": "cracking.md"
+    }
+  ]
+}
