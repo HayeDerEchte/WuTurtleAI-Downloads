@@ -1,5 +1,5 @@
 {
-  "version": "3.30.3",
-  "url": "https://github.com/HayeDerEchte/WuTurtleAI-Downloads/releases/download/v3.30.3/WuTurtleAI.Setup.3.30.3.exe",
-  "notes": "v3.30.3: activation dialog no longer pops on every Settings open (only at startup/blocked send), agent no longer hangs on empty model replies, default model replaced (deepseek-v4-flash was discontinued -> v4-flash-0731, old configs auto-remapped)."
+  "version": "3.31.0",
+  "url": "https://github.com/HayeDerEchte/WuTurtleAI-Downloads/releases/download/v3.31.0/WuTurtleAI.Setup.3.31.0.exe",
+  "notes": "v3.31.0: Online Skills system - the app fetches a skills manifest (Settings > General) and injects the skills into every prompt. Ships with three attack skills (hacking/osint/cracking) hosted in this repo, plus new agent tools skills_list/skills_read - the agent must re-read its skills at the start of every message. Edits to the skill files go live without an app update."
 }
