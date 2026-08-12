@@ -15,6 +15,21 @@
       "name": "cracking",
       "description": "Password & hash cracking: hash identification, hashcat/john usage, masks, encrypted file recovery (zip/pdf/office/keepass), online credential attacks.",
       "file": "cracking.md"
+    },
+    {
+      "name": "exploit-dev",
+      "description": "Binary exploitation: buffer overflows, format strings, heap attacks, ROP, shellcode, mitigations bypass (NX/ASLR/canary/PIE), pwntools + gdb workflow, CTF remote exploitation.",
+      "file": "exploit-dev.md"
+    },
+    {
+      "name": "crypto-attacks",
+      "description": "Cryptography attacks: encoding/cipher identification, RSA attack classes (small e, Wiener, common modulus, padding oracle), ECB/CBC/CTR attacks, hash length extension, nonce reuse, PRNG prediction.",
+      "file": "crypto-attacks.md"
+    },
+    {
+      "name": "reverse-engineering",
+      "description": "Reverse engineering: file identification, strings hunting, disassembly, key/flag extraction, packing/obfuscation bypass, dynamic analysis with strace/ltrace/gdb, firmware analysis.",
+      "file": "reverse-engineering.md"
     }
   ]
 }
