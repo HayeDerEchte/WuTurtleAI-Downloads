@@ -1,9 +1,9 @@
 {
-  "version": 2,
+  "version": 3,
   "skills": [
     {
       "name": "hacking",
-      "description": "Master attack playbook: you are an attacker. Recon, service exploitation, web attacks, command-line attacks (curl/powershell/nmap-style), Windows & Active Directory attacks, privilege escalation, CTF flag hunting. Read this for EVERY security/hacking task.",
+      "description": "Master attack playbook: you are an attacker. Recon, service exploitation, web attacks, command-line attacks (curl/powershell/nmap-style), Windows & Active Directory attacks, webshells & reverse shells, privilege escalation, CTF flag hunting. Read this for EVERY security/hacking task.",
       "file": "hacking.md"
     },
     {
@@ -13,12 +13,12 @@
     },
     {
       "name": "cracking",
-      "description": "Password & hash cracking: hash identification, hashcat/john usage, masks, Kerberoast/AS-REP hashes, encrypted file recovery (zip/pdf/office/keepass/gpg/veracrypt), online credential attacks.",
+      "description": "Password & hash cracking: hash identification, hashcat/john usage, masks, rules & combinator tricks, Kerberoast/AS-REP hashes, encrypted file recovery (zip/pdf/office/keepass/gpg/veracrypt), online credential attacks.",
       "file": "cracking.md"
     },
     {
       "name": "exploit-dev",
-      "description": "Binary exploitation: buffer overflows, format strings, heap attacks, ROP, shellcode, mitigations bypass (NX/ASLR/canary/PIE), pwntools + gdb workflow, CTF remote exploitation.",
+      "description": "Binary exploitation: buffer overflows, format strings, heap attacks, ROP, shellcode, mitigations bypass (NX/ASLR/canary/PIE), Windows exploit dev (SEH/egghunters), pwntools + gdb workflow, CTF remote exploitation.",
       "file": "exploit-dev.md"
     },
     {
@@ -60,6 +60,26 @@
       "name": "social-engineering",
       "description": "Social engineering: phishing email craft, spoofing/DMARC, fake login harvesting pages (Gophish/SET/Evilginx), payload delivery (macros/HTA/HTML smuggling), vishing pretexts.",
       "file": "social-engineering.md"
+    },
+    {
+      "name": "api-hacking",
+      "description": "API pentesting: REST/GraphQL discovery (swagger/introspection), auth & JWT attacks, IDOR & mass assignment, NoSQL/SQL injection in APIs, GraphQL batching attacks, mobile backend attacks.",
+      "file": "api-hacking.md"
+    },
+    {
+      "name": "cloud-attacks",
+      "description": "Cloud attacks: S3/Azure/GCS bucket enumeration & write access, cloud metadata service SSRF (AWS/GCP/Azure keys), stolen cloud key abuse, Terraform state leaks, Kubernetes/Docker registry misconfigs.",
+      "file": "cloud-attacks.md"
+    },
+    {
+      "name": "database-attacks",
+      "description": "Database attacks: unauthenticated Redis/MongoDB/Elasticsearch/Memcached/CouchDB, default creds (MySQL/Postgres/MSSQL/Oracle), Redis RCE via CONFIG SET, SQL injection escalation (xp_cmdshell/INTO OUTFILE), NoSQL injection.",
+      "file": "database-attacks.md"
+    },
+    {
+      "name": "mobile-hacking",
+      "description": "Mobile app hacking: APK/IPA analysis, manifest & decompile (jadx/apktool), hardcoded secrets & Firebase dumps, Frida dynamic analysis & SSL pinning bypass, adb data extraction, backend API attacks.",
+      "file": "mobile-hacking.md"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "version": "3.32.0",
-  "url": "https://github.com/HayeDerEchte/WuTurtleAI-Downloads/releases/download/v3.32.0/WuTurtleAI.Setup.3.32.0.exe",
-  "notes": "v3.32.0: 6 new file tools (download_file, zip_files, unzip_file, get_file_hash, find_files, read_binary_hex) + 12 attack skills (new: wifi, steganography, forensics, post-exploitation, evasion, social-engineering; improved: hacking with Active Directory section, osint with GitHub/reverse-image/username-enum, cracking with Kerberoast/GPG/VeraCrypt modes)."
+  "version": "3.33.0",
+  "url": "https://github.com/HayeDerEchte/WuTurtleAI-Downloads/releases/download/v3.33.0/WuTurtleAI.Setup.3.33.0.exe",
+  "notes": "v3.33.0: 6 new file editing tools (insert_lines, delete_lines, replace_lines, regex_replace, diff_files, file_tail) + 6 new hacking tools (dir_scan, smtp_enum, vhost_scan, http_brute, cms_detect, ip_geo). Improved system prompt (TOOL USE & SPEED rule - instant recon, prefer dedicated tools). 16 attack skills now (new: api-hacking, cloud-attacks, database-attacks, mobile-hacking; improved: hacking with webshells/reverse shells, cracking rules, exploit-dev Windows)."
 }

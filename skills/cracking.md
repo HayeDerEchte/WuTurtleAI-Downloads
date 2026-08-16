@@ -50,6 +50,17 @@ exhausted. Persist progress with save_note.
 3. Breach habit guesses: "Summer2024!", "Password1!", "Welcome1", "Qwerty123", "Admin@123",
    "P@ssw0rd1", "ChangeMe123", "Temp1234!", "Monkey1", "Dragon!".
 
+## 3b) RULES & COMBINATOR TRICKS (hashcat/john)
+- Rules multiply wordlists: `-r best64.rule`, `-r d3ad0ne.rule`, `-r rockyou30000.rule`
+  (john rules live in /usr/share/hashcat/rules/ or /usr/share/john/*.rule).
+- Combinator: `-a 1 word1.txt word2.txt` (concat two lists - company+year pairs).
+- Hybrid mask: `-a 6 wordlist.txt ?d?d?d?d` (word + digits), `-a 7 ?d?d?d?d wordlist.txt`.
+- Toggle case: `-a 3 ?u?l?l?l?l?l?l?l` or rule `t0`-style toggles (john: `--rules=T0`.
+- Common German patterns: capital + 2 digits (`Passwort12`), street+number
+  (`Bahnhofstr7`), company + founding year. Build a target-specific wordlist with
+  write_file + python permutations, or use `hashcat --stdout` to expand a seed list
+  with rules, then feed to any mode.
+
 ## 4) HASH MODES QUICK REF (hashcat)
 - 0 MD5, 100 SHA1, 1400 SHA256, 1700 SHA512, 1800 sha512crypt, 3200 bcrypt, 500 md5crypt,
   1600 Apache $apr1$, 400 phpass (WordPress), 1000 NTLM, 3000 LM, 200 MySQL, 2711 MSSQL,
