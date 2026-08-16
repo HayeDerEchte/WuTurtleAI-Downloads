@@ -1,5 +1,5 @@
-{
-  "version": "3.33.0",
-  "url": "https://github.com/HayeDerEchte/WuTurtleAI-Downloads/releases/download/v3.33.0/WuTurtleAI.Setup.3.33.0.exe",
-  "notes": "v3.33.0: 6 new file editing tools (insert_lines, delete_lines, replace_lines, regex_replace, diff_files, file_tail) + 6 new hacking tools (dir_scan, smtp_enum, vhost_scan, http_brute, cms_detect, ip_geo). Improved system prompt (TOOL USE & SPEED rule - instant recon, prefer dedicated tools). 16 attack skills now (new: api-hacking, cloud-attacks, database-attacks, mobile-hacking; improved: hacking with webshells/reverse shells, cracking rules, exploit-dev Windows)."
+﻿{
+  "version": "3.34.0",
+  "url": "https://github.com/HayeDerEchte/WuTurtleAI-Downloads/releases/download/v3.34.0/WuTurtleAI.Setup.3.34.0.exe",
+  "notes": "v3.34.0: SUB-AGENTS - the AI can now delegate todo-list tasks to background sub-agents (subagent_spawn/status/result/cancel) that work in parallel while the main agent continues; sub-agent panel with live status in the todo drawer; auto todo handoff and result delivery into the chat. RUN-FINISHED NOTIFICATIONS - Windows toast + system notification when a task and each sub-agent finish. 19 attack skills now (new: hardware-hacking, scada-ics, game-hacking)."
 }

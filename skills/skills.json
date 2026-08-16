@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "skills": [
     {
       "name": "hacking",
@@ -80,6 +80,21 @@
       "name": "mobile-hacking",
       "description": "Mobile app hacking: APK/IPA analysis, manifest & decompile (jadx/apktool), hardcoded secrets & Firebase dumps, Frida dynamic analysis & SSL pinning bypass, adb data extraction, backend API attacks.",
       "file": "mobile-hacking.md"
+    },
+    {
+      "name": "hardware-hacking",
+      "description": "Hardware hacking: embedded device recon (FCC ID, board analysis), UART/JTAG/SWD/SPI interfaces, firmware extraction (binwalk/openocd/flashrom), firmware analysis & decryption, runtime attacks on routers/IoT, MIFARE/NFC attacks.",
+      "file": "hardware-hacking.md"
+    },
+    {
+      "name": "scada-ics",
+      "description": "SCADA/ICS attacks: OT recon, Modbus/S7comm/DNP3/IEC104/EtherNet-IP/BACnet/OPC UA protocol attacks, engineering station attacks (TIA Portal/WinCC/Studio 5000 project cracking), PLC code exfil & logic persistence, replay attacks.",
+      "file": "scada-ics.md"
+    },
+    {
+      "name": "game-hacking",
+      "description": "Game hacking: Cheat Engine memory scanning & pointer chains, trainer development (pymem/frida/CE AOB), save file editing (binary/compressed/checksummed), local asset mods, game server & API exploitation.",
+      "file": "game-hacking.md"
     }
   ]
 }
