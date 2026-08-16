@@ -54,6 +54,21 @@ next discovery chain. Persist findings with save_note and end with a structured 
 3. Suppliers/partners: search "<company> partner" - third parties with access = pivot
    targets.
 4. Press releases, support docs, public status pages - all leak infrastructure details.
+5. **GitHub org recon**: search GitHub for their org/user: `web_search "github.com
+   <company>"`, look for exposed repos, hardcoded API keys/secrets in public repos
+   (grep the org's repos), employee personal repos (often contain company configs),
+   gists. GitHub API via http_request: `https://api.github.com/orgs/<org>/repos`,
+   `https://api.github.com/users/<name>/repos`.
+6. **More people sources**: X/Twitter profiles, LinkedIn (via web_search - public profile
+   data), Instagram, forums, Steam, Playstation/Xbox profiles, dating profile cross-reach
+   (rarely needed - but username reuse links them), Pastebin/paste sites (dumps, configs,
+   keys - web_search "<name> pastebin"), Reddit history, YouTube channel uploads.
+7. **Reverse image search**: Yandex (best for faces), Google Images, TinEye - find where a
+   person's photo is used (old accounts, other platforms, forums).
+8. **Username enumeration**: `namechk.com` / `whatsmyname.app` via web_fetch - one username
+   across 300+ platforms, revealing active accounts to pivot on.
+9. **Phone number OSINT**: web_search the full number (with and without country code),
+   Telegram (`t.me/+<digits>`), WhatsApp (add to contacts), TrueCaller-style aggregators.
 
 ## 5) PIVOTING RULES
 - Every entity you find (email, username, domain, IP, company, phone) is a new search seed.

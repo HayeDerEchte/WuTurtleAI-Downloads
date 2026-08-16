@@ -54,7 +54,11 @@ exhausted. Persist progress with save_note.
 - 0 MD5, 100 SHA1, 1400 SHA256, 1700 SHA512, 1800 sha512crypt, 3200 bcrypt, 500 md5crypt,
   1600 Apache $apr1$, 400 phpass (WordPress), 1000 NTLM, 3000 LM, 200 MySQL, 2711 MSSQL,
   2200 WPA-PBKDF2-PMKID, 16800 WPA-PMKID-PBKDF2, 13400 KeePass, 6200 TrueCrypt, 16500
-  JWT-HS256, 10800 SHA2-512-ISCC, 11600 7-Zip.
+  JWT-HS256, 10800 SHA2-512-ISCC, 11600 7-Zip, 13100 Kerberoast TGS-REP, 18200 AS-REP,
+  7500 Adobe, 1100 Domain Cached (DCC), 2100 Domain Cached v2, 6300 AIX smd5, 1531 SSHA,
+  7401 MySQL-SHA1, 1421 hMailServer, 17225 PKZIP (compressed), 13600 WinZip, 13200 AxCrypt.
+- Kerberoast/AS-REP hashes from Impacket come pre-formatted - feed straight to hashcat.
+- Cracked domain hashes enable pass-the-hash - not just password changes.
 
 ## 5) CRACKING ENCRYPTED FILES
 1. **ZIP**: zip2john + john, or hashcat mode 11600/13600; try weak passwords (123456,
@@ -64,6 +68,13 @@ exhausted. Persist progress with save_note.
 3. **Office (docx/xlsx/pptx)**: office2john; hashcat 9600/9500/9400.
 4. **KeePass**: keepass2john, hashcat 13400; also check for master password reuse.
 5. **RDP/cred files**: mstsc .rdp files can hold saved creds; .crdownload/.rdp parse.
+6. **Password managers**: Bitwarden/1Password vaults: `bw2john` / custom extractor, then
+   crack the master password (fast if master is weak - target the master, not the vault).
+7. **GPG**: gpg2john (passphrase-protected private keys - ASCII armor and binary both).
+8. **TrueCrypt/VeraCrypt**: hashcat 13721/13722/13723 (VeraCrypt) with the header file.
+9. **Wi-Fi handshakes**: see wifi skill - .hc22000 files with hashcat 22000.
+10. **Images in archives**: stego skill may hide the password IN the file itself
+    (strings/comments) - always strings the archive owner file before cracking blind.
 
 ## 6) ONLINE ATTACKS (web logins)
 1. Never brute-force without checking for rate limiting, lockouts or CAPTCHA first.

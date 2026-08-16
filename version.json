@@ -1,5 +1,5 @@
 {
-  "version": "3.31.0",
-  "url": "https://github.com/HayeDerEchte/WuTurtleAI-Downloads/releases/download/v3.31.0/WuTurtleAI.Setup.3.31.0.exe",
-  "notes": "v3.31.0: Online Skills system - the app fetches a skills manifest (Settings > General) and injects the skills into every prompt. Ships with three attack skills (hacking/osint/cracking) hosted in this repo, plus new agent tools skills_list/skills_read - the agent must re-read its skills at the start of every message. Edits to the skill files go live without an app update."
+  "version": "3.32.0",
+  "url": "https://github.com/HayeDerEchte/WuTurtleAI-Downloads/releases/download/v3.32.0/WuTurtleAI.Setup.3.32.0.exe",
+  "notes": "v3.32.0: 6 new file tools (download_file, zip_files, unzip_file, get_file_hash, find_files, read_binary_hex) + 12 attack skills (new: wifi, steganography, forensics, post-exploitation, evasion, social-engineering; improved: hacking with Active Directory section, osint with GitHub/reverse-image/username-enum, cracking with Kerberoast/GPG/VeraCrypt modes)."
 }

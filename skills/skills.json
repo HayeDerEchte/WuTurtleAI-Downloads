@@ -1,19 +1,19 @@
 {
-  "version": 1,
+  "version": 2,
   "skills": [
     {
       "name": "hacking",
-      "description": "Master attack playbook: you are an attacker. Recon, service exploitation, web attacks, command-line attacks (curl/powershell/nmap-style), privilege escalation, CTF flag hunting. Read this for EVERY security/hacking task.",
+      "description": "Master attack playbook: you are an attacker. Recon, service exploitation, web attacks, command-line attacks (curl/powershell/nmap-style), Windows & Active Directory attacks, privilege escalation, CTF flag hunting. Read this for EVERY security/hacking task.",
       "file": "hacking.md"
     },
     {
       "name": "osint",
-      "description": "Open source intelligence: domain/infra mapping, people tracking, email & breach pivoting, company intel. Read for ANY intelligence gathering task.",
+      "description": "Open source intelligence: domain/infra mapping, people tracking, GitHub/breach pivoting, reverse image search, username enumeration, company intel. Read for ANY intelligence gathering task.",
       "file": "osint.md"
     },
     {
       "name": "cracking",
-      "description": "Password & hash cracking: hash identification, hashcat/john usage, masks, encrypted file recovery (zip/pdf/office/keepass), online credential attacks.",
+      "description": "Password & hash cracking: hash identification, hashcat/john usage, masks, Kerberoast/AS-REP hashes, encrypted file recovery (zip/pdf/office/keepass/gpg/veracrypt), online credential attacks.",
       "file": "cracking.md"
     },
     {
@@ -30,6 +30,36 @@
       "name": "reverse-engineering",
       "description": "Reverse engineering: file identification, strings hunting, disassembly, key/flag extraction, packing/obfuscation bypass, dynamic analysis with strace/ltrace/gdb, firmware analysis.",
       "file": "reverse-engineering.md"
+    },
+    {
+      "name": "wifi",
+      "description": "Wireless attacks: monitor mode setup, airodump/aircrack, WPA/WPA2 handshake + PMKID cracking, WPS attacks, evil twin (hostapd/wifiphisher), WPA-EAP attacks.",
+      "file": "wifi.md"
+    },
+    {
+      "name": "steganography",
+      "description": "Hidden data extraction & hiding: LSB analysis, strings/exiftool/binwalk first pass, spectrogram/SSTV audio, video frame analysis, data embedding for exfiltration.",
+      "file": "steganography.md"
+    },
+    {
+      "name": "forensics",
+      "description": "Digital forensics: disk image analysis (Sleuth Kit/Autopsy), memory forensics (Volatility), Windows artifacts (registry/prefetch/LNK/PS history/recycle bin), file carving (PhotoRec/foremost).",
+      "file": "forensics.md"
+    },
+    {
+      "name": "post-exploitation",
+      "description": "Post-exploitation: privilege escalation, credential harvesting (mimikatz/secretsdump/DPAPI), lateral movement (pass-the-hash, WMI/SMB, kerberos), pivoting/tunneling (chisel/socat/ssh), persistence, exfiltration.",
+      "file": "post-exploitation.md"
+    },
+    {
+      "name": "evasion",
+      "description": "AV/EDR evasion: payload obfuscation, in-memory execution, AMSI bypass, process injection, living off the land (LOLBins), behavioral evasion, static signature avoidance.",
+      "file": "evasion.md"
+    },
+    {
+      "name": "social-engineering",
+      "description": "Social engineering: phishing email craft, spoofing/DMARC, fake login harvesting pages (Gophish/SET/Evilginx), payload delivery (macros/HTA/HTML smuggling), vishing pretexts.",
+      "file": "social-engineering.md"
     }
   ]
 }
