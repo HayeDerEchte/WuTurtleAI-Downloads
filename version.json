@@ -1,5 +1,5 @@
 {
-  "version": "3.35.1",
-  "url": "https://github.com/HayeDerEchte/WuTurtleAI-Downloads/releases/download/v3.35.1/WuTurtleAI.Setup.3.35.1.exe",
-  "notes": "v3.35.1: SKILLS NOW BUNDLED LOCALLY - all 25 skills are packed into the app and loaded from disk on startup, no internet needed, fully offline. The skills URL in Settings is now only an optional online fallback (used automatically if the bundled skills are missing)."
+  "version": "3.36.0",
+  "url": "https://github.com/HayeDerEchte/WuTurtleAI-Downloads/releases/download/v3.36.0/WuTurtleAI.Setup.3.36.0.exe",
+  "notes": "v3.36.0: DARKWEB SEARCH - search .onion sites and fetch darkweb pages. Uses your local Tor SOCKS proxy (127.0.0.1:9050 Tor daemon or 9150 Tor Browser) for Ahmia onion index; clearnet fallback with instructions. New tools: darkweb_search (query + limit) and darkweb_fetch (.onion URL)."
 }
