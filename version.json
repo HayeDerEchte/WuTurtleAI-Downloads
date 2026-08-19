@@ -1,5 +1,5 @@
 {
-  "version": "3.35.0",
-  "url": "https://github.com/HayeDerEchte/WuTurtleAI-Downloads/releases/download/v3.35.0/WuTurtleAI.Setup.3.35.0.exe",
-  "notes": "v3.35.0: TOOL FIX - new tolerant JSON parser: model tool calls with Windows paths (C:\\Users...), multi-line content and smart quotes no longer fail; auto-repair of over-escaped file content (literal \\n fixed to real newlines); better error feedback to the model. 25 attack skills now (new: malware-analysis, web-attacks, network-attacks, blockchain-web3, vulnerability-research, packet-analysis)."
+  "version": "3.35.1",
+  "url": "https://github.com/HayeDerEchte/WuTurtleAI-Downloads/releases/download/v3.35.1/WuTurtleAI.Setup.3.35.1.exe",
+  "notes": "v3.35.1: SKILLS NOW BUNDLED LOCALLY - all 25 skills are packed into the app and loaded from disk on startup, no internet needed, fully offline. The skills URL in Settings is now only an optional online fallback (used automatically if the bundled skills are missing)."
 }
