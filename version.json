@@ -1,5 +1,5 @@
 {
-  "version": "3.36.0",
-  "url": "https://github.com/HayeDerEchte/WuTurtleAI-Downloads/releases/download/v3.36.0/WuTurtleAI.Setup.3.36.0.exe",
-  "notes": "v3.36.0: DARKWEB SEARCH - search .onion sites and fetch darkweb pages. Uses your local Tor SOCKS proxy (127.0.0.1:9050 Tor daemon or 9150 Tor Browser) for Ahmia onion index; clearnet fallback with instructions. New tools: darkweb_search (query + limit) and darkweb_fetch (.onion URL)."
+  "version": "3.37.0",
+  "url": "https://github.com/HayeDerEchte/WuTurtleAI-Downloads/releases/download/v3.37.0/WuTurtleAI.Setup.3.37.0.exe",
+  "notes": "v3.37.0: DARKWEB SEARCH FIXED - Tor2Web gateway fallback (onion.to/onion.cab) for clearnet Ahmia access; multiple Tor-only engines (Ahmia, Phobos, Tor66, Torch) when Tor runs. SKILL LAZY-LOADING - optional skills_select filter (Settings > Skills) loads only chosen skills, reducing prompt size. TOOL ROBUSTNESS - retry/backoff for network tools. SUB-AGENT IMPROVEMENTS - structured results, token-efficient summaries."
 }
