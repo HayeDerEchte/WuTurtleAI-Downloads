@@ -1,5 +1,5 @@
-﻿{
-  "version": "3.34.0",
-  "url": "https://github.com/HayeDerEchte/WuTurtleAI-Downloads/releases/download/v3.34.0/WuTurtleAI.Setup.3.34.0.exe",
-  "notes": "v3.34.0: SUB-AGENTS - the AI can now delegate todo-list tasks to background sub-agents (subagent_spawn/status/result/cancel) that work in parallel while the main agent continues; sub-agent panel with live status in the todo drawer; auto todo handoff and result delivery into the chat. RUN-FINISHED NOTIFICATIONS - Windows toast + system notification when a task and each sub-agent finish. 19 attack skills now (new: hardware-hacking, scada-ics, game-hacking)."
+{
+  "version": "3.35.0",
+  "url": "https://github.com/HayeDerEchte/WuTurtleAI-Downloads/releases/download/v3.35.0/WuTurtleAI.Setup.3.35.0.exe",
+  "notes": "v3.35.0: TOOL FIX - new tolerant JSON parser: model tool calls with Windows paths (C:\\Users...), multi-line content and smart quotes no longer fail; auto-repair of over-escaped file content (literal \\n fixed to real newlines); better error feedback to the model. 25 attack skills now (new: malware-analysis, web-attacks, network-attacks, blockchain-web3, vulnerability-research, packet-analysis)."
 }

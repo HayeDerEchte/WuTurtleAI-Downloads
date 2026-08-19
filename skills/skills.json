@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "skills": [
     {
       "name": "hacking",
@@ -95,6 +95,36 @@
       "name": "game-hacking",
       "description": "Game hacking: Cheat Engine memory scanning & pointer chains, trainer development (pymem/frida/CE AOB), save file editing (binary/compressed/checksummed), local asset mods, game server & API exploitation.",
       "file": "game-hacking.md"
+    },
+    {
+      "name": "malware-analysis",
+      "description": "Malware analysis: triage (hashes/VT/strings/capa), static analysis of PE/ELF/.NET/Go (imports, dnSpy, UPX unpacking), dynamic sandbox analysis (Procmon/Regshot/x64dbg), C2 & config extraction (tokens, keys, exfil endpoints).",
+      "file": "malware-analysis.md"
+    },
+    {
+      "name": "web-attacks",
+      "description": "Advanced web attacks: SSTI (Jinja2/Twig/Freemarker), XXE/XInclude & blind XXE, SSRF with filter bypasses + cloud metadata, insecure deserialization (PHP/Java/Python/.NET/Node), file upload bypasses, HTTP request smuggling, CSRF/clickjacking.",
+      "file": "web-attacks.md"
+    },
+    {
+      "name": "network-attacks",
+      "description": "Network attacks: ARP spoofing & MITM, rogue DHCP, VLAN hopping (double tagging/DTP), DNS/ICMP spoofing, WPAD hijack, LLMNR/NBT-NS poisoning with responder, NTLM relay, session hijacking, LAN enumeration & pivoting.",
+      "file": "network-attacks.md"
+    },
+    {
+      "name": "blockchain-web3",
+      "description": "Blockchain & Web3 hacking: smart contract recon (Etherscan/ABI/decompilation), Solidity vulns (reentrancy, overflow, access control, front-running, oracle manipulation), foundry exploit workflow with mainnet forks, wallet/private key attacks, DeFi & bridge exploits.",
+      "file": "blockchain-web3.md"
+    },
+    {
+      "name": "vulnerability-research",
+      "description": "Vulnerability research: CVE hunting & patch diffing, fuzzing with AFL++/libFuzzer/honggfuzz (harnesses, dictionaries, ASAN), crash triage (gdb/rr/ASAN classification), PoC minimization & development, disclosure.",
+      "file": "vulnerability-research.md"
+    },
+    {
+      "name": "packet-analysis",
+      "description": "Packet analysis: pcap overview (capinfos/tshark statistics), protocol dissection (HTTP/FTP/SMTP/Telnet/NTLM/Kerberos/DNS/SMB), credential hunting, file & object extraction (tshark export/foremost/tcpflow), anomaly detection (tunneling, beaconing, ARP poisoning).",
+      "file": "packet-analysis.md"
     }
   ]
 }
