@@ -1,5 +1,5 @@
 {
-  "version": "3.38.0",
-  "url": "https://github.com/HayeDerEchte/WuTurtleAI-Downloads/releases/download/v3.38.0/WuTurtleAI.Setup.3.38.0.exe",
-  "notes": "v3.38.0: REMOVED `speak` TOOL - Windows TTS removed (voice input `speechDictate` remains). DARKWEB SEARCH FIXED + SKILL LAZY-LOADING + TOOL ROBUSTNESS + SUB-AGENT IMPROVEMENTS."
+  "version": "3.39.0",
+  "url": "https://github.com/HayeDerEchte/WuTurtleAI-Downloads/releases/download/v3.39.0/WuTurtleAI.Setup.3.39.0.exe",
+  "notes": "v3.39.0: DARKWEB SEARCH HONEST - clearnet fallbacks removed (unreliable). Requires Tor (127.0.0.1:9050/9150) for real .onion search. Multi-engine Tor search (Ahmia, Phobos, Tor66, Torch). Improved parsing. SPEAK tool removed, skill lazy-loading, tool robustness."
 }
